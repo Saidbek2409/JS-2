@@ -9,7 +9,7 @@ if(int % 2 === 1 ){
 //  2 //
 
 let name = prompt("как тебя зовут")
-if( name >= "A || a" + "lex"){
+if( name[0] === 'A'  ){
     console.log("you can go through")
 } else(
     console.log("go home ")
